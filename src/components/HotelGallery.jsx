@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import HotelInfo from "../components/HotelInfo";
-import HotelGallery from "../components/HotelGallery";
 
 export default function HotelDetail() {
   const { id } = useParams();
@@ -29,13 +28,9 @@ export default function HotelDetail() {
     return <h1 className="text-center mt-10">Loading...</h1>;
   }
 
-return (
-  <div className="max-w-7xl mx-auto px-6 py-10">
-
-    <HotelInfo hotel={hotel} />
-
-    <HotelGallery photos={hotel.photos} />
-
-  </div>
-);
+  return (
+    <div className="max-w-7xl mx-auto px-6 py-10">
+      <HotelInfo hotel={hotel} />
+    </div>
+  );
 }
