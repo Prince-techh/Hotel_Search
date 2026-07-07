@@ -74,9 +74,9 @@ export default function Footer() {
 
               <p>📍 Noida, Uttar Pradesh</p>
 
-              <p>📧 support@stayease.com</p>
+              <p>📧 princesingh45890@gmail.com</p>
 
-              <p>📞 +91 98765 43210</p>
+              <p>📞 +91 7302610597</p>
 
             </div>
           </div>
